@@ -16,7 +16,7 @@ $ git commit -m 'New chart version'
 You might know github has a raw view. So simply use the following:
 
 ```bash
-$ helm repo add sample 'https://raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+$ helm repo add hardyscc 'https://raw.githubusercontent.com/hardyscc/charts/master/'
 $ helm repo update
 $ helm search aerospike
 NAME            	VERSION	DESCRIPTION
