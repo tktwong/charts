@@ -16,14 +16,14 @@ service:
   name: web
   type: ClusterIP
   url: http://my.host.com/
-  externalPort: 5000
+  externalPort: 80
   internalPort: 5000
 postgresql:
   enabled: true
-resources:
-#  limits:
-#    cpu: 100m
-#    memory: 128Mi
-#  requests:
-#    cpu: 100m
-#    memory: 128Mi
+# resources:
+#   limits:
+#     cpu: 100m
+#     memory: 128Mi
+#   requests:
+#     cpu: 100m
+#     memory: 128Mi
