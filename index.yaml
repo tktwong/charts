@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   auto-deploy-app:
   - apiVersion: v1
-    created: 2018-08-20T11:44:38.596479785+08:00
+    created: 2018-08-20T22:06:47.212900186+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: 171e0de00c0ca8946203bf8ba86b57a2ad5f5c79aebdc3f0d22dbc7a002461b7
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -11,10 +11,10 @@ entries:
     - auto-deploy-app-0.0.1.tgz
     version: 0.0.1
   postgresql:
-  - created: 2018-08-20T11:44:38.596967724+08:00
+  - created: 2018-08-20T22:06:47.213259351+08:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance. (arm32v7)
-    digest: c9f2545df78b59125e6b282c8b31d3f3f01202af5c1cdc609c87683a469b4b2a
+    digest: 8af0b77dbd9786725dbe7c57fdcb8ba1c9681a76a0fa989b9cb72309e948903a
     engine: gotpl
     home: https://www.postgresql.org/
     icon: https://www.postgresql.org/media/img/about/press/elephant.png
@@ -32,4 +32,4 @@ entries:
     urls:
     - postgresql-0.0.1.tgz
     version: 0.0.1
-generated: 2018-08-20T11:44:38.595478692+08:00
+generated: 2018-08-20T22:06:47.212130341+08:00
