@@ -18,9 +18,9 @@ You might know github has a raw view. So simply use the following:
 ```bash
 $ helm repo add hardyscc 'https://raw.githubusercontent.com/hardyscc/charts/master/'
 $ helm repo update
-$ helm search aerospike
-NAME            	VERSION	DESCRIPTION
-sample/aerospike	0.1.2  	A Helm chart for Aerospike in Kubernetes
+$ helm search auto-deploy-app
+NAME                    	CHART VERSION	APP VERSION	DESCRIPTION                    
+hardyscc/auto-deploy-app	0.2.4        	           	GitLab's Auto-deploy Helm Chart
 ```
 
 If your repo is private you can create a "Personal access tokens" and use it like:
