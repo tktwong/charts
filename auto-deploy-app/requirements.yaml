@@ -1,5 +1,5 @@
 dependencies:
   - name: postgresql
-    version: "0.0.1"
+    version: "0.0.2"
     repository: "https://raw.githubusercontent.com/hardyscc/charts/master/"
     condition: postgresql.enabled

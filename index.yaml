@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   auto-deploy-app:
   - apiVersion: v1
-    created: 2018-08-21T09:23:49.593258481+08:00
+    created: 2018-08-21T09:29:43.354116191+08:00
+    description: GitLab's Auto-deploy Helm Chart (arm32v7)
+    digest: bedc8553c248faebb3c0d1d56e94b555fe7bfade7793219145f048ad22c7de6e
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    name: auto-deploy-app
+    urls:
+    - auto-deploy-app-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    created: 2018-08-21T09:29:43.353451002+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: a1dfd55bb167e7195ef5ce94d872aaee67a38e7ffdc009d9d4208381cb95f5a5
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -11,7 +20,7 @@ entries:
     - auto-deploy-app-0.0.1.tgz
     version: 0.0.1
   postgresql:
-  - created: 2018-08-21T09:23:49.59500507+08:00
+  - created: 2018-08-21T09:29:43.355068734+08:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance. (arm32v7)
     digest: 86c85737614b82bcf732d1d10cb772a2ccea20aac35021ed7b18c5d9b6e4b028
@@ -32,7 +41,7 @@ entries:
     urls:
     - postgresql-0.0.2.tgz
     version: 0.0.2
-  - created: 2018-08-21T09:23:49.594221678+08:00
+  - created: 2018-08-21T09:29:43.354603926+08:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance. (arm32v7)
     digest: 8af0b77dbd9786725dbe7c57fdcb8ba1c9681a76a0fa989b9cb72309e948903a
@@ -53,4 +62,4 @@ entries:
     urls:
     - postgresql-0.0.1.tgz
     version: 0.0.1
-generated: 2018-08-21T09:23:49.584883469+08:00
+generated: 2018-08-21T09:29:43.352416798+08:00
