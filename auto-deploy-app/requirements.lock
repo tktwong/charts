@@ -1,6 +1,6 @@
 dependencies:
 - name: postgresql
   repository: https://raw.githubusercontent.com/hardyscc/charts/master/
-  version: 0.0.2
-digest: sha256:6ee30bba35a4cfae268af5d0bccf442eed75f233275d2ac5bbaa5031ec181f0b
-generated: 2018-08-21T09:27:39.295129762+08:00
+  version: 0.0.1
+digest: sha256:b1a96b588beaf57286ebb93e7c081dec072192d17a3f19ae70d94ce4fe05f966
+generated: 2018-08-20T22:47:19.702215915+08:00

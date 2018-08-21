@@ -15,4 +15,4 @@ maintainers:
 name: postgresql
 sources:
   - https://hub.docker.com/r/arm32v7/postgres/
-version: 0.0.2
+version: 0.0.1
