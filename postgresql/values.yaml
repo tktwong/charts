@@ -3,7 +3,7 @@ image: "arm32v7/postgres"
 ## postgres image version
 ## ref: https://hub.docker.com/r/library/postgres/tags/
 ##
-imageTag: "9.6.10"
+imageTag: "10.5"
 
 ## Specify a imagePullPolicy
 ## 'Always' if imageTag is 'latest', else set to 'IfNotPresent'
