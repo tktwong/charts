@@ -20,6 +20,8 @@ service:
   internalPort: 5000
 postgresql:
   enabled: true
+redis:
+  enabled: true
 # resources:
 #   limits:
 #     cpu: 100m

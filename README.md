@@ -5,6 +5,7 @@ This is a sample for how to setup a helm repo in github without gh-pages. This i
 # Build the dependency
 
 ```bash
+$ helm dependency update $YOUR_CHART_PATH/ # build the dependency tgz file
 $ helm dependency build $YOUR_CHART_PATH/ # build the dependency tgz file
 ```
 
