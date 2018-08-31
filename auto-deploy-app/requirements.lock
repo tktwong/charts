@@ -4,6 +4,6 @@ dependencies:
   version: 0.0.2
 - name: redis
   repository: https://raw.githubusercontent.com/hardyscc/charts/master/
-  version: 0.0.1
-digest: sha256:54043687f8537a453c7eaeddf718a750711811a0f6379040f36476b9e11b622d
-generated: 2018-08-30T22:12:44.309602051+08:00
+  version: 0.0.2
+digest: sha256:0cf29cac467d40b326a9f61fa3b29c9427aabbb01272993a105a362c7ff513d1
+generated: 2018-08-31T10:39:49.596462261+08:00
