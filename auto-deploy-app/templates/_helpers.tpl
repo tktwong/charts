@@ -43,6 +43,6 @@ Get a hostname from URL
 {{- end -}}
 
 {{- define "hostname-server" -}}
-{{- printf "server-%s" . | trimPrefix "http://" |  trimPrefix "https://" | trimSuffix "/" | quote -}}
+{{- $hostname := . | trimPrefix "http://" |  trimPrefix "https://" | trimSuffix "/"  -}}
+{{- printf "server-%s" | quote -}}
 {{- end -}}
-
