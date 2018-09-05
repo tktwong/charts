@@ -12,11 +12,11 @@ metadata:
     kubernetes.io/ingress.class: "traefik"
 spec:
   rules:
-  - host: "server-{{ template "hostname" .Values.service.url }}"
+  - host: {{ template "hostname-server" .Values.service.url }}
     http:
       paths:
       - path: /
         backend:
-          serviceName: {{ template "fullname" . }}
+          serviceName: {{ template "fullname-server" . }}
           servicePort: {{ .Values.service.server.externalPort }}
 {{- end -}}
