@@ -33,12 +33,12 @@ spec:
           value: {{ .Values.application.redis_url | quote }}
         ports:
         - name: "{{ .Values.service.name }}"
-          containerPort: {{ .Values.service.internalPort }}
+          containerPort: {{ .Values.service.server.internalPort }}
         {{- if .Values.livenessProbe.enabled }}
         livenessProbe:
           httpGet:
             path: /
-            port: {{ .Values.service.internalPort }}
+            port: {{ .Values.service.server.internalPort }}
           initialDelaySeconds: 30
           timeoutSeconds: 30
         {{- end }}
@@ -46,7 +46,7 @@ spec:
         readinessProbe:
           httpGet:
             path: /
-            port: {{ .Values.service.internalPort }}
+            port: {{ .Values.service.server.internalPort }}
           initialDelaySeconds: 10
           timeoutSeconds: 6
         {{- end }}
