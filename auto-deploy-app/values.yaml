@@ -17,7 +17,11 @@ service:
   type: ClusterIP
   url: http://my.host.com/
   externalPort: 80
-  internalPort: 5000
+  internalPort: 3000
+  server:
+    enabled: false
+    externalPort: 80
+    internalPort: 4000
 postgresql:
   enabled: true
 redis:
