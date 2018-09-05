@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: {{ template "trackableappname-server" . }}
   labels:
-    app: {{ template "appname" . }}
+    app: {{ template "appname-server" . }}
     track: "{{ .Values.application.track }}"
     tier: "{{ .Values.application.tier }}"
     chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
@@ -15,7 +15,7 @@ spec:
   template:
     metadata:
       labels:
-        app: {{ template "appname" . }}
+        app: {{ template "appname-server" . }}
         track: "{{ .Values.application.track }}"
         tier: "{{ .Values.application.tier }}"
         release: {{ .Release.Name }}

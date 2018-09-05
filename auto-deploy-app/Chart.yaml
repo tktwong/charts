@@ -2,4 +2,4 @@ apiVersion: v1
 description: GitLab's Auto-deploy Helm Chart (arm32v7)
 icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
 name: auto-deploy-app
-version: 0.0.13
+version: 0.0.14

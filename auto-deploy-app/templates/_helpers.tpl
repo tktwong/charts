@@ -25,6 +25,11 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 {{- printf "%s" $releaseName | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
+{{- define "appname-server" -}}
+{{- $releaseName := default .Release.Name .Values.releaseOverride -}}
+{{- printf "%s-server" $releaseName | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
 {{- define "trackableappname" -}}
 {{- $trackableName := printf "%s-%s" (include "appname" .) .Values.application.track -}}
 {{- $trackableName | trimSuffix "-stable" | trunc 63 | trimSuffix "-" -}}

@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: {{ template "fullname-server" . }}
   labels:
-    app: {{ template "appname" . }}
+    app: {{ template "appname-server" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
@@ -16,6 +16,6 @@ spec:
     protocol: TCP
     name: {{ .Values.service.name }}
   selector:
-    app: {{ template "appname" . }}
+    app: {{ template "appname-server" . }}
     tier: "{{ .Values.application.tier }}"
 {{- end -}}
