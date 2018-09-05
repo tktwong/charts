@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   auto-deploy-app:
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.077980002+08:00
+    created: 2018-09-05T12:11:51.880451065+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
-    digest: 54789df41ab12d9a21f95a89b43c11b13efc74abddf3318ce90c9baf73332d95
+    digest: cadf6507f568cd69e9c8ad9afba26ee968d735959be60db7d6822119e58917bf
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
     name: auto-deploy-app
     urls:
     - auto-deploy-app-0.0.9.tgz
     version: 0.0.9
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.076582563+08:00
+    created: 2018-09-05T12:11:51.878990795+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: 12f21cb7e348d241a1248aea54a667db288dff0506188f22cda0bf5f875dfc56
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -20,7 +20,7 @@ entries:
     - auto-deploy-app-0.0.8.tgz
     version: 0.0.8
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.074237584+08:00
+    created: 2018-09-05T12:11:51.877528205+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: cc10c59eec50d057c35b191b11de1b3594f46bb26a883e668f8ee8d609c84c80
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -29,7 +29,7 @@ entries:
     - auto-deploy-app-0.0.7.tgz
     version: 0.0.7
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.07193803+08:00
+    created: 2018-09-05T12:11:51.875144317+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: ef615155d9c9043b351d61939096317330cbdc376cc4dd7132d8ee9e0ffb04d3
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -38,7 +38,7 @@ entries:
     - auto-deploy-app-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.069387672+08:00
+    created: 2018-09-05T12:11:51.873779323+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: 99d7c4f4ff88507eb8af0575f9dfeb7fe6942c25ad58eb015cdfbe52b12e0183
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -47,7 +47,7 @@ entries:
     - auto-deploy-app-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.068005535+08:00
+    created: 2018-09-05T12:11:51.872466293+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: 6dfbb95adb19a35107567b9d4b84e92da13872891453095c8a122fabf01b2c8b
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -56,7 +56,7 @@ entries:
     - auto-deploy-app-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.066664308+08:00
+    created: 2018-09-05T12:11:51.871151951+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: c1d981f472380884def564c1cb76e1d553304b67af19d4c4550382af3464a3c6
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -65,7 +65,7 @@ entries:
     - auto-deploy-app-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.065328468+08:00
+    created: 2018-09-05T12:11:51.869777542+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: 4365aab91ae5e7bf871bdf55785ddbd2f71ad01271550f6ff8c5559e894241ee
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -74,7 +74,7 @@ entries:
     - auto-deploy-app-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: 2018-09-05T12:10:28.064659735+08:00
+    created: 2018-09-05T12:11:51.86914546+08:00
     description: GitLab's Auto-deploy Helm Chart (arm32v7)
     digest: 6a25dbc0a61ae146ee90c3aee3cbaedc9bd54551ab7e0e1c537397f271e5b50e
     icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
@@ -83,7 +83,7 @@ entries:
     - auto-deploy-app-0.0.1.tgz
     version: 0.0.1
   postgresql:
-  - created: 2018-09-05T12:10:28.078903955+08:00
+  - created: 2018-09-05T12:11:51.881397078+08:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance. (arm32v7)
     digest: 811b13bd56cf523200ec50aa0774be80894f729a9366fa140f17867531015395
@@ -104,7 +104,7 @@ entries:
     urls:
     - postgresql-0.0.2.tgz
     version: 0.0.2
-  - created: 2018-09-05T12:10:28.078430135+08:00
+  - created: 2018-09-05T12:11:51.880932576+08:00
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance. (arm32v7)
     digest: 9d720e0a4c2bf5f7faf444bbc2c44f83de4213566f524d0ef3cc466980e99010
@@ -127,7 +127,7 @@ entries:
     version: 0.0.1
   redis:
   - appVersion: 4.0.11
-    created: 2018-09-05T12:10:28.080598202+08:00
+    created: 2018-09-05T12:11:51.88303907+08:00
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -149,7 +149,7 @@ entries:
     - redis-0.0.2.tgz
     version: 0.0.2
   - appVersion: 4.0.11
-    created: 2018-09-05T12:10:28.079742055+08:00
+    created: 2018-09-05T12:11:51.882220459+08:00
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -170,4 +170,4 @@ entries:
     urls:
     - redis-0.0.1.tgz
     version: 0.0.1
-generated: 2018-09-05T12:10:28.063679309+08:00
+generated: 2018-09-05T12:11:51.868199576+08:00
