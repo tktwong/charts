@@ -23,9 +23,9 @@ service:
     externalPort: 80
     internalPort: 4000
 postgresql:
-  enabled: true
+  enabled: false
 redis:
-  enabled: true
+  enabled: false
 livenessProbe:
   enabled: true
 readinessProbe:
