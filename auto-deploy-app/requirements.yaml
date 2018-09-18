@@ -1,9 +1,9 @@
 dependencies:
   - name: postgresql
     version: "0.0.2"
-    repository: "https://raw.githubusercontent.com/hardyscc/charts/master/"
+    repository: "https://raw.githubusercontent.com/tktwong/charts/master/"
     condition: postgresql.enabled
   - name: redis
     version: "0.0.4"
-    repository: "https://raw.githubusercontent.com/hardyscc/charts/master/"
+    repository: "https://raw.githubusercontent.com/tktwong/charts/master/"
     condition: redis.enabled
