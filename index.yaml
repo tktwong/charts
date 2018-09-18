@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   postgresql:
-  - created: 2018-09-18T03:32:27.15419329Z
+  - created: 2018-09-18T03:40:53.627513191Z
     description: Object-relational database management system (ORDBMS) with an emphasis
       on extensibility and on standards-compliance. (arm32v7)
     digest: fc2fd8146b4175a902394d71017da3368b75cdae4a0c8fd69a6f7713b36f4ea6
@@ -22,4 +22,27 @@ entries:
     urls:
     - postgresql-0.0.2.tgz
     version: 0.0.2
-generated: 2018-09-18T03:32:27.147039895Z
+  redis:
+  - appVersion: 4.0.11
+    created: 2018-09-18T03:40:53.63534903Z
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: 6f2ac35d45598a4cc38271711442928d12afca1a9e225747d1ee02186d4bfe65
+    engine: gotpl
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: bitnami-bot
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-0.0.4.tgz
+    version: 0.0.4
+generated: 2018-09-18T03:40:53.623163582Z
